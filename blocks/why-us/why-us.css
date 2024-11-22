@@ -1,0 +1,34 @@
+
+.why-us > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.why-us img {
+    width: 100%;
+}
+
+.why-us > div > div {
+    order: 1;
+}
+
+.why-us > div > .why-us-img-col {
+    order: 0;
+}
+
+    .why-us > div > .why-us-img-col img {
+        display: block;
+    }
+
+@media (width >= 900px) {
+    .why-us > div {
+        align-items: center;
+        flex-direction: unset;
+        gap: 24px;
+    }
+
+        .why-us > div > div {
+            flex: 1;
+            order: unset;
+        }
+}

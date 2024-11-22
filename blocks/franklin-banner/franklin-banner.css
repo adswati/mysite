@@ -1,0 +1,14 @@
+.franklin-banner{
+    background-color:blue;
+}
+    .franklin-banner > div {
+        display: flex;
+        justify-content: space-between;
+    }
+        .franklin-banner > div > div {
+            flex-grow:1;
+        }
+        .franklin-banner > div .franklin-banner-image img {
+            width: 100%;
+            height:250px;
+        }

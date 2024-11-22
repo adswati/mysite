@@ -250,8 +250,15 @@ main > .section:first-of-type {
 
 /* section metadata */
 main .section.light,
-main .section.highlight {
+main .section.highlight, main .section.about-us {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.homepage, main .section.services {
+    background-color: lightgray;
+    margin: 0;
+    padding: 40px 0;
+    color: black;
 }
