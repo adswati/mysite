@@ -1,0 +1,39 @@
+main .form {
+    background-color: var(--light-color);
+    padding:40px;
+}
+    main .form .field-wrapper{
+        margin:10px 0px;
+    }
+
+    main .form input,
+    main .form select {
+        border: solid 1px grey;
+        width: 100%;
+        max-width: 50rem;
+        box-sizing: border-box;
+        border-radius:5px;
+    }
+
+
+
+main .form label {
+    display: block;
+    box-sizing: border-box;
+}
+
+    main .form label.required::after {
+        content: "*";
+    }
+
+
+@media screen and (min-width: 900px) {
+
+        main .form .field-wrapper {
+            display: flex;
+        }
+
+        main .form label {
+            width: 72%;
+        }
+}
